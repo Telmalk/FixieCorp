@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: 'Gorgeous-ExtraBold';
+	src: url('../Fonts/Gorgeous/Gorgeous-ExtraBold.tff') format('truetype');
+}
+
+@font-face {
 	font-family: 'Carosello-Regular';
 	src: url(../Fonts/Carosello-Regular.otf) format('opentype'),
 		 url(../Fonts/Carosello-Regular.ttf) format('truetype');
