@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: 'Gorgeous-SuperBlack';
+	src: url(../Fonts/Gorgeous/Gorgeous-SuperBlack.ttf) format('truetype');
+}
+
+@font-face {
 	font-family: 'Gorgeous-ExtraBold';
 	src: url('../Fonts/Gorgeous/Gorgeous-ExtraBold.tff') format('truetype');
 }
