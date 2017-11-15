@@ -14,10 +14,10 @@
 
 .rectangle2 {
 	position: absolute;
-	top: 2029px;
+	top: 2040px;
 	left: 363px;
 	background: #90f9e5;
-	height: 1844px;
+	height: 2020px;
 	width: 153px;
 	z-index: 2;
 }
@@ -106,12 +106,10 @@
 .history {
 	position: relative;
 	width: 100%;
-	/* height: 329px; */
 	top: 300px;
 }
 .bikeContainer {
 	position: absolute;
-
 	top: 0;
 	left: 176.2px;
 	width: 525px;
@@ -166,7 +164,7 @@
 
 
 .titleTypeContains {
-	position: relative;	
+	position: absolute;	
 	height: 53px;
 	width: 200px;
 	left: 271px;
@@ -205,7 +203,7 @@
 }
 
 .bikeFeatureContains {
-	position: relative;
+	position: absolute;
 	width: 749.9px;
 	height: 469px;
 	top: 224px;
@@ -272,7 +270,7 @@
 .presentationFixieContainer {
 	position: relative;
 	top: 1624px;
-	height: 700px;
+	/* height: 700px; */
 }
 
 .presentationFixieImageContainer1 {
@@ -280,7 +278,7 @@
 	top: 0;
 	left: 0;
 	width: 68.3%;
-	height: 426px;
+	/* height: 426px; */
 	z-index: 3;
 }
 
@@ -289,7 +287,7 @@
 	top: 323px;
 	left: 890px;
 	width: 550px;
-	height: 347px;
+	/* height: 347px; */
 	z-index: 5;
 
 }
@@ -299,7 +297,7 @@
 	top: 663px;
 	left: 270px;
 	width: 808px;
-	height: 386px;
+	/* height: 386px; */
 	z-index: 3;
 }
 
@@ -329,4 +327,102 @@
 	text-align: justify;
 	line-height: 1.2;
 	z-index: 4;
+}
+
+.customContainer {
+	position: relative;
+	top: 2825px;
+	width: 100%;
+}
+
+.--bicyclettes {
+	left: 664.3px;
+}
+
+.--customisables {
+	left: 523.5px;
+}
+
+.bikeCustomContainer {
+	position: absolute;
+	top: 224px;
+	width: 653px;
+	height: 409px;
+	left: 175.2px;
+	z-index: 3;
+}
+
+.rectangleCustom {
+	position: absolute;
+	height: 190px;
+	left: 246px;
+	right: 0;
+	background: #FFD500;
+	top: 503px;
+}
+
+.customTextContains {
+	position: absolute;
+	width: 341px;
+	height: 167.9px;
+	top: 367px;
+	left: 922.2px;
+	z-index: 3;
+}
+
+.customTextContains-text {
+	font-family: 'JosefinSans-Regular';
+	font-size: 18px;
+	line-height: 1.28;
+}
+
+.accessoriesContainer {
+	position: relative;
+	top: 3670px;
+}
+
+.--accessoires {
+	left: 625.5px;
+}
+
+.--indispensable {
+	left: 480.4px;
+}
+
+.accesoriesContains {
+	position: relative;
+	top: 230px;
+	left: 175.2px;
+	height: 418px;
+	width: 1200px;
+	/* background: red; */
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	justify-content: space-between;
+}
+
+.accesoriesPhotoContains {
+	width: 250px;
+	height: 200px;
+}
+
+.accesoriesPhotoContains-img {
+	width: 100%;
+	height: 100%;
+}
+
+.buttonBuy {
+	margin-top: 25px;
+	margin-left: 40px;
+	width: 160px;
+	height: 50px;
+	border: 5px solid #FFD500;
+}
+
+.buttunBuy-link {
+	display: block;
+	text-decoration: none;
+	color: #FFD500;
+	margin-top: 15px;
 }
