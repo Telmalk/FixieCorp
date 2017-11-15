@@ -1,0 +1,185 @@
+.body {
+	position: relative;
+}
+
+.rectangle1 {
+	position: absolute;
+	height: 1844px;
+	width: 153px;
+	top: 0;
+	background: #90f9e5;
+	z-index: 2;
+	left: 851px;
+}
+
+.rectangle2 {
+	position: absolute;
+	top: 2200px;
+	left: 385px;
+	background: #90f9e5;
+	height: 1844px;
+	width: 153px;
+	z-index: 2;
+}
+
+.rectangle3 {
+	position: absolute;
+	width: 1076px;
+	height: 76px;
+	top: 800px;
+	background: #ffd500;
+}
+
+.header {
+	position: relative;
+	display: flex;
+	margin-left: 12.3%;
+	width: 1087px;
+	height: 80px;
+	top: 75px;
+	z-index: 3;
+}
+
+.logo {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 154px;
+	height: 80px;
+}
+
+.Logo-img {
+	width: 100%;
+	height: 100%;
+}
+
+.mainNavigation-link {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'JosefinSans-Bold';
+	color: black;
+	font-size: 14px;
+
+}
+
+.mainNavigation-item1 {
+	position: absolute;
+	top: 31px;
+	left: 27.7%;
+}
+
+.mainNavigation-item2 {
+	position: absolute;
+	top: 31px;
+	left: 45.6%;
+
+}
+
+.mainNavigation-item3 {
+	position: absolute;
+	top: 31px;
+	left: 64.1%;
+
+}
+
+.buttonShop {
+	position: absolute;
+	top: 11px;
+	left: 85.9%;
+	width: 154px;
+	height: 54px;
+	border: 6px #FFD500 solid;
+	text-align: center;
+}
+
+.buttonShop-link {
+	display: block;
+	margin-top: 12px;
+	font-family: 'JosefinSans-Bold';
+	text-decoration: none;
+	color: #FECE09;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.history {
+	position: absolute;
+	width: 100%;
+	height: 381px;
+	top: 280px;
+}
+
+.historyContainer {
+	position: absolute;
+	margin-left: 12.3%;
+	height: 381px;
+}
+
+.bikeContainer {
+	position: absolute;
+	margin-top: 34.22px;
+	width: 527px;
+	height: 346.78px;
+	z-index: 4;
+}
+
+.bikeContainer-img {
+	width: 100%;
+	height: 100%;
+}
+
+.historyTextContainer {
+	position: relative;
+	width: 797px;
+	height: 260px;
+	top: 0;
+	left: 467px;
+	background: #FFD500;
+	z-index: 3;
+}
+
+.historyText {
+	position: absolute;
+	width: 527px;
+	height: 234px;
+	top: 80px;
+	left: 93px;
+	margin-right: 177px;
+	color: #23282F;
+	font-family: 'JosefinSans-Regular';
+	font-size: 24px;
+	z-index: 4;
+}
+
+.featuresContainer {
+	position: absolute;
+	top: 840px;
+	height: 789px;
+	width: 100%;
+	z-index: 4;
+}
+
+.featuresContains {
+	position: relative;
+	width: 900px;
+	height: 100%;
+	left: 270px;
+	right: 270px;
+}
+
+
+.titleContains {
+	position: relative;
+	left: 187px;
+}
+
+.titleTypeContains {
+	position: absolute;	
+	font-family: 'JosefinSans-Regular'
+}
+
+.titleType {
+	display: block;	
+	position: absolute;	
+}

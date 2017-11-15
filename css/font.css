@@ -10,11 +10,16 @@
 
 @font-face {
 	font-family: 'Carosello-Regular';
-	src: url(../Fonts/Carosello-Regular.otf) format('opentype'),
-		 url(../Fonts/Carosello-Regular.ttf) format('truetype');
+	src: url(../Fonts/Carosello/Carosello-Regular.otf) format('opentype'),
+		 url(../Fonts/Carosello/Carosello-Regular.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: 'JosefinSans-Bold';
-	src : url('JosefinSans-Bold.ttf') format('truetype');
+	src : url('../Fonts/Josefin-Sans/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'JosefinSans-Regular';
+	src: url('../Fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
 }
