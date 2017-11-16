@@ -503,32 +503,53 @@
 	width: 50px;
 }
 
-.newsLetter {
+/* .newsLetter {
 	position: absolute;
 	top: 41.5%;
 	left: 61.8%;
 	right: 12.2%;
-}
+} */
 
 .signText {
+	position: absolute;
 	display: block;
+	top: 165px;
+	left: 61.8%;
 	color: white;
 	font-family: 'JosefinSans-Bold';
 	font-size: 16px;
 	margin-bottom: 10px;
 }
-.newsLetterForm {
-	display: flex;
-	justify-content: space-between;
-}
 
 .newsLetterInput {
+	position: absolute;
 	background: #30343F;
 	border: 5px white solid;
-	width: 263px;
-	height: 45px;
+	top: 194px;
+	left: 61.8%;
+	width: 268px;
+	height: 40px;
 	color: #595C65;
 	font-size: 16px;
 	text-align: justify;
 	font-family: 'JosefinSans-Bold';
+}
+
+.buttonSignIn-link {
+	position: absolute;
+	display: block;
+	top: 194px;
+	left: 80.1%;
+	width: 115px;
+	height: 52px;
+	background: white;
+	color: #30343F;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'JosefinSans-Bold';
+}
+
+.buttonSignIn {
+	display: block;
+	margin-top: 19px;
 }
