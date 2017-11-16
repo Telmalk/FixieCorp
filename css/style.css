@@ -24,9 +24,9 @@
 
 .rectangle3 {
 	position: absolute;
-	width: 1109px;
+	width: 77%;
 	height: 76px;
-	top: 800px;
+	top: 730px;
 	background: #ffd500;
 }
 
@@ -66,6 +66,11 @@
 	font-size: 14px;
 }
 
+.mainNavigation-link:hover {
+	color: #FFD500;
+	transition: color .4s ease;
+}
+
 .mainNavigation {
 	height: 100%;
   width: 100%;
@@ -74,7 +79,7 @@
 .mainNavigation-list {
 	position: relative;
 	height: 100%;
-  width: 100%;
+ 	 width: 100%;
 	padding-left: 154px;
 }
 
@@ -83,24 +88,21 @@
 	top: 31px;
 	left: 300.8px;
 }
-
 .mainNavigation-item2 {
 	position: absolute;
 	top: 31px;
 	left: 494.8px;
-
 }
 
 .mainNavigation-item3 {
 	position: absolute;
 	top: 31px;
 	left: 693px;
-
 }
 
 .buttonShop {
 	position: absolute;
-	top: 11px;
+	top: 90px;
 	left: 934px;
 	width: 154px;
 	height: 54px;
@@ -108,9 +110,14 @@
 	text-align: center;
 }
 
+.buttonShop:hover {
+	background: #90f9e5;
+	transition: background .4s ease;
+}
+
 .buttonShop-link {
 	display: block;
-	margin-top: 12px;
+	margin-top: 16px;
 	font-family: 'JosefinSans-Bold';
 	text-decoration: none;
 	color: #FECE09;
@@ -126,6 +133,7 @@
 	margin-top: 158px;
   margin-bottom: 130px;
 }
+
 .bikeContainer {
 	position: absolute;
 	top: 0;
@@ -159,7 +167,7 @@
 	height: 171px;
 	color: #23282F;
 	font-family: 'JosefinSans-Regular';
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 	line-height: 1.2;
 	z-index: 4;
@@ -170,7 +178,7 @@
 	height: 670px;
 	width: 100%;
 	z-index: 4;
-  margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .featuresContains {
@@ -180,6 +188,48 @@
 	left: 345px;
 }
 
+.moreDetail {
+	position: absolute;
+	width: 171px;
+	height: 50px;
+	font-family: 'JosefinSans-Bold';
+	text-align: center;
+}
+
+.titleDetail {
+	color: #f53854;
+	font-size: 18px;
+}
+
+.textDetails {
+	color: #30343f;
+	font-size: 12px;
+}
+
+.--posDetail1 {
+	top: 180px;
+	left: 147px;
+}
+
+.--posDetail2 {
+	left: 425px;
+	top: 220px;
+}
+
+.--posDetail3 {
+	left: 734px;
+	top: 410px;
+}
+
+.--posDetail4 {
+	left: 268px;
+	top: 620px;
+}
+
+.--posDetail5 {
+	left: 279px;
+	top: 280px;
+}
 
 .titleTypeContains {
 	position: absolute;
@@ -246,6 +296,8 @@
 	color: white;
 	z-index: 20;
 }
+
+
 
 .--1 {
 	top: 8px;
@@ -337,7 +389,7 @@
 .presentationTextFixie {
 	position: absolute;
 	display: block;
-	top: 508px;
+	top: 530px;
 	left: 147.2px;
 	width: 651px;
 	font-family: 'JosefinSans-Regular';
@@ -378,6 +430,7 @@
 	right: 0;
 	background: #FFD500;
 	top: 503px;
+	z-index: 2;
 }
 
 .customTextContains {
@@ -393,6 +446,7 @@
 	font-family: 'JosefinSans-Regular';
 	font-size: 18px;
 	line-height: 1.28;
+	text-align: justify;
 }
 
 .accessoriesContainer {
@@ -436,6 +490,11 @@
 	border: 5px solid #FFD500;
 	font-family: 'JosefinSans-Bold';
 	font-size: 30px;
+}
+
+.buttonBuy:hover {
+	background: #90f9e5;
+	transition: background .4s ease;
 }
 
 .buttunBuy-link {
@@ -562,6 +621,7 @@
 	color: #30343F;
 	text-align: center;
 	font-size: 14px;
+	text-transform: uppercase;
 	font-family: 'JosefinSans-Bold';
 }
 
