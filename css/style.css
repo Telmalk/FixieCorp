@@ -424,6 +424,7 @@
 .buttunBuy-link {
 	display: block;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #FFD500;
 	margin-top: 15px;
 }
@@ -463,11 +464,6 @@
 	height: 100%;
 }
 
-/* .contactListContains {
-	justify-content: space-around;
-	margin-top: 75px;
-} */
-
 .contactListContains {
 	position: absolute;
 	top: 41.4%;
@@ -505,4 +501,34 @@
 	display: inline-block;
 	height: 50px;
 	width: 50px;
+}
+
+.newsLetter {
+	position: absolute;
+	top: 41.5%;
+	left: 61.8%;
+	right: 12.2%;
+}
+
+.signText {
+	display: block;
+	color: white;
+	font-family: 'JosefinSans-Bold';
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.newsLetterForm {
+	display: flex;
+	justify-content: space-between;
+}
+
+.newsLetterInput {
+	background: #30343F;
+	border: 5px white solid;
+	width: 263px;
+	height: 45px;
+	color: #595C65;
+	font-size: 16px;
+	text-align: justify;
+	font-family: 'JosefinSans-Bold';
 }
