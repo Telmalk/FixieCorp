@@ -33,11 +33,16 @@
 .header {
 	position: relative;
 	display: flex;
-	left: 176px;
 	width: 1087px;
+	margin: 0 auto;
 	height: 80px;
-	top: 75px;
+	padding-top: 80px;
 	z-index: 3;
+}
+
+.headerContainer {
+	height: 100%;
+	width: 100%;
 }
 
 .logo {
@@ -59,7 +64,18 @@
 	font-family: 'JosefinSans-Bold';
 	color: black;
 	font-size: 14px;
+}
 
+.mainNavigation {
+	height: 100%;
+  width: 100%;
+}
+
+.mainNavigation-list {
+	position: relative;
+	height: 100%;
+  width: 100%;
+	padding-left: 154px;
 }
 
 .mainNavigation-item1 {
