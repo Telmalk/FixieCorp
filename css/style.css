@@ -1,7 +1,7 @@
-.body {
+/* .body {
 	position: relative;
 }
-
+ */
 .rectangle1 {
 	position: absolute;
 	height: 1844px;
@@ -393,9 +393,9 @@
 	position: relative;
 	top: 230px;
 	left: 175.2px;
+	right: 176.9px;
 	height: 418px;
 	width: 1200px;
-	/* background: red; */
 	display: flex;
 	text-align: center;
 	text-decoration: none;
@@ -403,8 +403,8 @@
 }
 
 .accesoriesPhotoContains {
-	width: 250px;
-	height: 200px;
+	width: 248px;
+	height: 235.9px;
 }
 
 .accesoriesPhotoContains-img {
@@ -414,10 +414,11 @@
 
 .buttonBuy {
 	margin-top: 25px;
-	margin-left: 40px;
-	width: 160px;
+	width: 242px;
 	height: 50px;
 	border: 5px solid #FFD500;
+	font-family: 'JosefinSans-Bold';
+	font-size: 30px;
 }
 
 .buttunBuy-link {
@@ -425,4 +426,83 @@
 	text-decoration: none;
 	color: #FFD500;
 	margin-top: 15px;
+}
+
+.accessoriesTitle {
+	margin-top: 34.1px;
+	font-size: 20px;
+	font-family: 'JosefinSans-Regular';
+	color: #30343F;
+}
+
+.price {
+	margin-top: 20px;
+	font-family: 'JosefinSans-Bold';
+	color: #91F9e5;
+	font-size: 20px;
+}
+
+.footer {
+	position: relative;
+	top: 4062px;
+	height: 400px;
+	right: 0;
+	left: 0;
+	background: #30343F;
+}
+
+.FixieLogoFooter-Contains {
+	width: 60px;
+	height: 32px;
+	padding-top: 65px;
+	margin-left: 45.8%;
+}
+
+.fixieLogoFooter {
+	width: 100%;
+	height: 100%;
+}
+
+/* .contactListContains {
+	justify-content: space-around;
+	margin-top: 75px;
+} */
+
+.contactListContains {
+	position: absolute;
+	top: 41.4%;
+	font-family: 'JosefinSans-Bold';
+	font-size: 16px;
+	color: white;
+	text-align: justify;
+}
+
+.--pos1 {
+	left: 12.2%;
+}
+
+.--pos2 {
+	left: 22.9%;
+}
+
+.contacts-item {
+	margin-bottom: 10px;
+}
+
+.reseauContainer {
+	position: absolute;
+	left: 41%;
+	right: 46.3%;
+	top: 48.8%;
+}
+
+.reseau {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reseauItem {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
 }
