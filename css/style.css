@@ -106,7 +106,9 @@
 .history {
 	position: relative;
 	width: 100%;
-	top: 300px;
+	height: 320px;
+	margin-top: 158px;
+  margin-bottom: 130px;
 }
 .bikeContainer {
 	position: absolute;
@@ -148,11 +150,11 @@
 }
 
 .featuresContainer {
-	position: absolute;
-	top: 813px;
-	height: 789px;
+	position: relative;
+	height: 670px;
 	width: 100%;
 	z-index: 4;
+  margin-bottom: 150px;
 }
 
 .featuresContains {
@@ -164,7 +166,7 @@
 
 
 .titleTypeContains {
-	position: absolute;	
+	position: absolute;
 	height: 53px;
 	width: 200px;
 	left: 271px;
@@ -177,7 +179,7 @@
 	font-size: 36px;
 	top: 0;
 	left: 0;
-	color: #82FADE;	
+	color: #82FADE;
 }
 
 .titleFeatureContains{
@@ -191,7 +193,7 @@
 }
 
 .titleFeature {
-	position: absolute;	
+	position: absolute;
 	top: 15px;
 	left:0;
 	font-size: 120px;
@@ -199,7 +201,7 @@
 	text-transform: uppercase;
 	color: #30343F;
 	font-style: normal;
-	letter-spacing: 7.5px;	
+	letter-spacing: 7.5px;
 }
 
 .bikeFeatureContains {
@@ -269,8 +271,8 @@
 
 .presentationFixieContainer {
 	position: relative;
-	top: 1624px;
-	/* height: 700px; */
+  height: 1070px;
+  margin-bottom: 150px;
 }
 
 .presentationFixieImageContainer1 {
@@ -331,8 +333,9 @@
 
 .customContainer {
 	position: relative;
-	top: 2825px;
+	height: 695px;
 	width: 100%;
+	margin-bottom: 150px;
 }
 
 .--bicyclettes {
@@ -378,7 +381,8 @@
 
 .accessoriesContainer {
 	position: relative;
-	top: 3670px;
+	height: 800px;
+	width: 100%;
 }
 
 .--accessoires {
@@ -390,16 +394,13 @@
 }
 
 .accesoriesContains {
-	position: relative;
-	top: 230px;
-	left: 175.2px;
-	right: 176.9px;
 	height: 418px;
-	width: 1200px;
+	width: 100%;
+	padding-top: 230px;
 	display: flex;
 	text-align: center;
 	text-decoration: none;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .accesoriesPhotoContains {
@@ -445,7 +446,6 @@
 
 .footer {
 	position: relative;
-	top: 4062px;
 	height: 400px;
 	right: 0;
 	left: 0;
